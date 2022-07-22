@@ -1,10 +1,9 @@
-
 //Dependencies
-const express = require("express");
+const express = require('express');
 const app = express();
-const cors = cors();
+const cors = require('cors');
 
-require("dotenv").config();
+require('dotenv').config();
 
 //Port
 // Allow use of Heroku's port or your own local port, depending on the environment
@@ -20,9 +19,9 @@ app.use(express.json()); // returns middleware that only parses JSON
 app.use(cors());
 
 // Routes
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.get('/', (req, res) => {
+	res.send('Hello World!');
 });
 
 //Listen
-app.listen(PORT, () => console.log("Listening on port:", PORT));
+app.listen(PORT, () => console.log('Listening on port:', PORT));
