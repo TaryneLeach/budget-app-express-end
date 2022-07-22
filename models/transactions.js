@@ -1,5 +1,6 @@
 module.exports = [
 	{
+		id: 1,
 		item_name: 'eyeshadow palette',
 		amount: 60,
 		date: 'September 14 2021',
@@ -8,6 +9,7 @@ module.exports = [
 	},
 
 	{
+		id: 2,
 		item_name: 'bronzer',
 		amount: 45,
 		date: 'September 16 2021',
@@ -16,6 +18,7 @@ module.exports = [
 	},
 
 	{
+		id: 3,
 		item_name: 'candles',
 		amount: 80,
 		date: 'September 18 2021',
@@ -24,6 +27,7 @@ module.exports = [
 	},
 
 	{
+		id: 4,
 		item_name: 'groceries',
 		amount: 150,
 		date: 'September 19 2021',
@@ -32,6 +36,7 @@ module.exports = [
 	},
 
 	{
+		id: 5,
 		item_name: 'hair-care',
 		amount: 40,
 		date: 'September 20 2021',
@@ -40,6 +45,7 @@ module.exports = [
 	},
 
 	{
+		id: 6,
 		item_name: 'shoes',
 		amount: 75,
 		date: 'September 21 2021',
@@ -48,18 +54,47 @@ module.exports = [
 	},
 
 	{
+		id: 7,
 		item_name: 'birth-control',
 		amount: 30,
 		date: 'September 22 2021',
-		from: 'Free Clinic',
+		from: 'Clinic',
 		category: 'Health',
 	},
 
 	{
+		id: 8,
 		item_name: 'tampons',
 		amount: 10,
-		date: 'September 22  2021',
+		date: 'September 22 2021',
 		from: 'Walgreens',
 		category: 'Health',
+	},
+
+	{
+		id: 9,
+		item_name: 'charger-cable',
+		amount: 25,
+		date: 'September 23 2021',
+		from: 'Best Buy',
+		category: 'Electronics',
+	},
+
+	{
+		id: 10,
+		item_name: 'leather-totebag',
+		amount: 180,
+		date: 'September 24 2021',
+		from: 'Michael Kors',
+		category: 'Luxury',
+	},
+
+	{
+		id: 11,
+		item_name: 'Xerjoff Lira',
+		amount: 390,
+		date: 'September 24 2021',
+		from: 'Saks Fifth Ave',
+		category: 'Luxury',
 	},
 ];
