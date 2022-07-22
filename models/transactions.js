@@ -97,4 +97,22 @@ module.exports = [
 		from: 'Saks Fifth Ave',
 		category: 'Luxury',
 	},
+
+	{
+		id: 12,
+		item_name: 'Electric Bill',
+		amount: 125,
+		date: 'September 25 2021',
+		from: 'ConEdison',
+		category: 'Utilities',
+	},
+
+	{
+		id: 13,
+		item_name: 'Gas Bill',
+		amount: 30,
+		date: 'September 25 2021',
+		from: 'National Grid',
+		category: 'Utilities',
+	},
 ];

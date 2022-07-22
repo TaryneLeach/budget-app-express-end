@@ -14,7 +14,7 @@ transactions.get('/transactions/:id', (req, res) => {
 });
 
 // Create a new transactions (create)
-transactions.post('/transactions', (req, res) => {
+transactions.post('/transactions/new', (req, res) => {
 	transactionsArray.push(req.body);
 	res.send(transactionsArray[transactionsArray.length - 1]);
 });
