@@ -115,4 +115,13 @@ module.exports = [
 		from: 'National Grid',
 		category: 'Utilities',
 	},
+
+	{
+		id: 14,
+		item_name: 'Iced Mocha Latte',
+		amount: 6.49,
+		date: 'September 28 2021',
+		from: 'Starbucks',
+		category: 'Food',
+	},
 ];
